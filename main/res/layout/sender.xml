@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sending_icon"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bobby"/>
+
+    <TextView
+        android:id="@+id/sending_message_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@+id/sending_icon"
+        android:textColor="#2B4251"
+        android:textSize="8.5pt"
+        android:paddingLeft="90dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/username_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sending_message_contents"
+        android:layout_toLeftOf="@+id/sending_icon"
+        android:textColor="#01050F"
+        android:textSize="5pt"
+        android:paddingLeft="90dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/time_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sending_message_contents"
+        android:layout_toLeftOf="@+id/sending_icon"
+        android:textColor="#01050F"
+        android:textSize="3pt"
+        android:paddingLeft="90dip"
+        android:paddingRight="10dip"
+        />
+
+
+
+
+
+</RelativeLayout>

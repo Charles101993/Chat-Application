@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/received_icon"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/hank"/>
+
+    <TextView
+        android:id="@+id/received_message_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/received_icon"
+        android:textColor="#2B4251"
+        android:textSize="8.5pt"
+        android:paddingLeft="10dip"
+        android:paddingRight="90dip"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/username_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/received_message_contents"
+        android:layout_toRightOf="@+id/received_icon"
+        android:textColor="#01050F"
+        android:textSize="5pt"
+        android:paddingLeft="10dip"
+        android:paddingRight="90dip"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/time_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/received_message_contents"
+        android:layout_toRightOf="@+id/received_icon"
+        android:textColor="#01050F"
+        android:textSize="3pt"
+        android:paddingLeft="10dip"
+        android:paddingRight="90dip"
+        />
+
+</RelativeLayout>
