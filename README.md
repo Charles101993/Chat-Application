@@ -1,4 +1,4 @@
-# Chat-Application
+# Hank Hill Chat Simulator
 A super cool chat interface for Android. Simulates a conversation with Hank Hill the propane king. To use just download apk file on target device. 
 
 # Known-concern:
